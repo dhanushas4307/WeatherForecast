@@ -23,6 +23,7 @@ Note:
   * Also for the application authorisation user will get the client Id and client secret from the application console 
 
 TODO 
+
 In this application we have been used a random string generation logic for generating an Id and secret, But we can also implement any algorithm based authentication mechanism for authorisation and validation.
 We can enahnce the authorisation process using any authorisation mechanism like Oauth2 or Database or JWT etc.,
 We can also implement the UI for this service.
