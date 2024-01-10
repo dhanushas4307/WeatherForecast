@@ -12,7 +12,7 @@ http://localhost:8080/weather/berlin/hourly
     Respone --- Hourly weather Summary of the mentioned city in JSON format
 
 
-Also implemented the custom header authentication 
+Also implemented the custom header based authentication 
 * In this user can get the random client Id and Client secret to have a access to public facing Api's
 * Those random Client Id and Client Secret will get generate at the server level whenever the Application is started. By using that user can provide those Id and secret for the headers mentioned below and can get an authorisation for the public facing api.
     X-Client-ID  --- > Client Id
